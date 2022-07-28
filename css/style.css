@@ -1,5 +1,4 @@
 .banner_img {
-
     filter: brightness(50%);
     height: 600px !important;
 }
@@ -9,8 +8,6 @@
     background: #289BDE;
     border-radius: 5px;
 }
-
-
 
 .coures-btn .see_btn {
     display: inline-block;
@@ -24,6 +21,19 @@
     text-decoration: none;
     color: #fff;
     margin: 10px 10px;
+}
+
+.social-icon a {
+    background-color: rgb(127, 130, 130);
+    font-size: 25px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.social-icon i {
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(231, 238, 235);
 }
 
 @media (max-width: 992px) {
