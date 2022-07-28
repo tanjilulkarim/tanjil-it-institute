@@ -1,4 +1,37 @@
-.test {
+.banner_img {
 
-    background: linear-gradient(#eb01a5, #d13531);
+    filter: brightness(50%);
+    height: 600px !important;
+}
+
+.register-part {
+    height: 300px;
+    background: #289BDE;
+    border-radius: 5px;
+}
+
+
+
+.coures-btn .see_btn {
+    display: inline-block;
+}
+
+.coures-btn .view_btn {
+    display: none;
+}
+
+.footer_link a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px 10px;
+}
+
+@media (max-width: 992px) {
+    .coures-btn .see_btn {
+        display: none;
+    }
+
+    .coures-btn .view_btn {
+        display: inline-block;
+    }
 }
