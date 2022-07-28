@@ -44,4 +44,8 @@
     .coures-btn .view_btn {
         display: inline-block;
     }
+
+    .register-title {
+        text-align: center;
+    }
 }
